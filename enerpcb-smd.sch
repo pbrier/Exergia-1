@@ -1,0 +1,535 @@
+EESchema Schematic File Version 2  date 1/1/2013 8:38:13 PM
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ti-launchpad
+LIBS:enerpcb-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "1 jan 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7000 2250 7000 1150
+Wire Wire Line
+	5250 2500 5250 2450
+Wire Wire Line
+	5250 2450 4650 2450
+Wire Wire Line
+	4950 2750 4950 2550
+Wire Wire Line
+	4950 2550 4650 2550
+Wire Wire Line
+	4650 2750 4750 2750
+Wire Wire Line
+	4950 3050 4650 3050
+Wire Wire Line
+	4950 3250 4650 3250
+Connection ~ 4700 4300
+Wire Wire Line
+	4700 4300 4700 2850
+Wire Wire Line
+	5000 4200 4750 4200
+Wire Wire Line
+	4650 2650 4800 2650
+Wire Wire Line
+	1450 3350 1600 3350
+Wire Wire Line
+	1450 3150 1600 3150
+Wire Wire Line
+	1450 2950 1600 2950
+Wire Wire Line
+	1450 2750 1600 2750
+Wire Wire Line
+	1450 2550 1600 2550
+Wire Wire Line
+	5000 4100 5000 4050
+Connection ~ 4250 1000
+Wire Wire Line
+	4250 1400 4250 1500
+Wire Wire Line
+	4250 1500 2050 1500
+Connection ~ 3600 1500
+Wire Wire Line
+	3600 1500 3600 1300
+Wire Wire Line
+	6400 2850 6400 2950
+Connection ~ 7800 3700
+Connection ~ 7800 3500
+Connection ~ 7800 3200
+Connection ~ 7800 2150
+Connection ~ 7800 1850
+Connection ~ 7800 1650
+Connection ~ 7000 3600
+Connection ~ 7000 3300
+Connection ~ 7000 3400
+Connection ~ 7000 2250
+Connection ~ 7000 2050
+Connection ~ 7000 1850
+Connection ~ 7000 1650
+Connection ~ 7000 1450
+Wire Wire Line
+	6400 1400 6400 1250
+Connection ~ 2900 1000
+Wire Wire Line
+	2900 850  2900 1000
+Wire Wire Line
+	1600 2350 1600 2450
+Wire Wire Line
+	6400 900  6400 1050
+Wire Wire Line
+	7000 1150 6400 1150
+Connection ~ 7000 1550
+Connection ~ 7000 1750
+Connection ~ 7000 1950
+Connection ~ 7000 2150
+Connection ~ 7000 3200
+Connection ~ 7000 3500
+Connection ~ 7000 3700
+Connection ~ 7800 1550
+Connection ~ 7800 1750
+Connection ~ 7800 1950
+Connection ~ 7800 2050
+Connection ~ 7800 2250
+Connection ~ 7800 3300
+Connection ~ 7800 3400
+Connection ~ 7800 3600
+Connection ~ 7800 3800
+Wire Wire Line
+	6400 2550 6400 2650
+Wire Wire Line
+	6400 2750 7000 2750
+Wire Wire Line
+	7000 2750 7000 3800
+Wire Wire Line
+	7800 1450 7800 4000
+Wire Wire Line
+	3200 1500 3200 1400
+Connection ~ 3200 1500
+Connection ~ 4000 1500
+Wire Wire Line
+	4000 1650 4000 1400
+Wire Wire Line
+	2050 1000 3200 1000
+Wire Wire Line
+	4600 1000 4000 1000
+Wire Wire Line
+	4600 850  4600 1100
+Connection ~ 4600 1000
+Wire Wire Line
+	5000 4400 5000 4500
+Wire Wire Line
+	5000 4300 4200 4300
+Wire Wire Line
+	1450 2650 1600 2650
+Wire Wire Line
+	1450 2850 1600 2850
+Wire Wire Line
+	1450 3050 1600 3050
+Wire Wire Line
+	1450 3250 1600 3250
+Wire Wire Line
+	1500 2550 1500 3600
+Connection ~ 1500 2550
+Wire Wire Line
+	4750 4200 4750 2750
+Wire Wire Line
+	4950 3350 4650 3350
+Wire Wire Line
+	4950 3150 4650 3150
+Wire Wire Line
+	4950 2950 4650 2950
+Wire Wire Line
+	4700 2850 4650 2850
+Wire Wire Line
+	4950 2850 4800 2850
+Wire Wire Line
+	4800 2850 4800 2650
+Text Notes 1550 1250 0    60   ~ 0
+Battery 5 .. 15V
+Text Notes 8150 7300 0    60   ~ 0
+Exergia / pbrier.nl / 2013\nCC-BY-NC-SA 3.0 creativecommons.org
+Text Notes 10700 7650 0    60   ~ 0
+1
+Text Notes 7450 7550 0    60   ~ 0
+EXERGIA-1 
+$Comp
+L +3.3V #PWR01
+U 1 1 50E312EC
+P 4200 3800
+F 0 "#PWR01" H 4200 3760 30  0001 C CNN
+F 1 "+3.3V" H 4200 3910 30  0000 C CNN
+	1    4200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LD1117V33C U2
+U 1 1 50E2C9E5
+P 3600 1050
+F 0 "U2" H 3750 854 60  0000 C CNN
+F 1 "LD1117V33C" H 3600 1250 60  0000 C CNN
+	1    3600 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 50E2C789
+P 1500 4500
+F 0 "#PWR02" H 1500 4500 30  0001 C CNN
+F 1 "GND" H 1500 4430 30  0001 C CNN
+	1    1500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 50E2C788
+P 1500 4300
+F 0 "D2" H 1500 4400 50  0000 C CNN
+F 1 "LED" H 1500 4200 50  0000 C CNN
+	1    1500 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 50E2C787
+P 1500 3850
+F 0 "R3" V 1580 3850 50  0000 C CNN
+F 1 "220R" V 1500 3850 50  0000 C CNN
+	1    1500 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 K4
+U 1 1 50E2C517
+P 1900 1500
+F 0 "K4" H 1980 1500 40  0000 L CNN
+F 1 "CONN_1" H 1900 1555 30  0001 C CNN
+	1    1900 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 K3
+U 1 1 50E2C511
+P 1900 1000
+F 0 "K3" H 1980 1000 40  0000 L CNN
+F 1 "CONN_1" H 1900 1055 30  0001 C CNN
+	1    1900 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C3
+U 1 1 50E2C4B7
+P 4250 1200
+F 0 "C3" H 4300 1300 50  0000 L CNN
+F 1 "100nF" H 4300 1100 50  0000 L CNN
+	1    4250 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 50E2C427
+P 4200 4700
+F 0 "#PWR03" H 4200 4700 30  0001 C CNN
+F 1 "GND" H 4200 4630 30  0001 C CNN
+	1    4200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 50E2C41C
+P 4200 4500
+F 0 "C4" H 4250 4600 50  0000 L CNN
+F 1 "1nF" H 4250 4400 50  0000 L CNN
+	1    4200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 50E1B581
+P 4000 1650
+F 0 "#PWR04" H 4000 1650 30  0001 C CNN
+F 1 "GND" H 4000 1580 30  0001 C CNN
+	1    4000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 50E1AB7A
+P 4600 1350
+F 0 "R2" V 4680 1350 50  0000 C CNN
+F 1 "220R" V 4600 1350 50  0000 C CNN
+	1    4600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 50E1AB6E
+P 4600 1800
+F 0 "D1" H 4600 1900 50  0000 C CNN
+F 1 "LED" H 4600 1700 50  0000 C CNN
+	1    4600 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L +BATT #PWR05
+U 1 1 50E19E42
+P 6400 2550
+F 0 "#PWR05" H 6400 2500 20  0001 C CNN
+F 1 "+BATT" H 6400 2650 30  0000 C CNN
+	1    6400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR06
+U 1 1 50E19E3D
+P 6400 2950
+F 0 "#PWR06" H 6400 2910 30  0001 C CNN
+F 1 "+3.3V" H 6400 3060 30  0000 C CNN
+	1    6400 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_3 K2
+U 1 1 50E19E39
+P 6050 2750
+F 0 "K2" V 6000 2750 50  0000 C CNN
+F 1 "VS2" V 6100 2750 40  0000 C CNN
+	1    6050 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 50E19C99
+P 4200 4050
+F 0 "R1" H 4280 4050 50  0000 C CNN
+F 1 "47K" V 4200 4050 50  0000 C CNN
+	1    4200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 50E19792
+P 7800 4000
+F 0 "#PWR07" H 7800 4000 30  0001 C CNN
+F 1 "GND" H 7800 3930 30  0001 C CNN
+	1    7800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_7 P8
+U 1 1 50E19763
+P 7450 3500
+F 0 "P8" V 7400 3500 60  0000 C CNN
+F 1 "GND2" V 7500 3500 60  0000 C CNN
+	1    7450 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_9 P7
+U 1 1 50E19760
+P 7450 1850
+F 0 "P7" V 7400 1850 60  0000 C CNN
+F 1 "GND1" V 7500 1850 60  0000 C CNN
+	1    7450 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR08
+U 1 1 50E1971F
+P 6400 1400
+F 0 "#PWR08" H 6400 1360 30  0001 C CNN
+F 1 "+3.3V" H 6400 1510 30  0000 C CNN
+	1    6400 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L +BATT #PWR09
+U 1 1 50E1971A
+P 6400 900
+F 0 "#PWR09" H 6400 850 20  0001 C CNN
+F 1 "+BATT" H 6400 1000 30  0000 C CNN
+	1    6400 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K1
+U 1 1 50E19710
+P 6050 1150
+F 0 "K1" V 6000 1150 50  0000 C CNN
+F 1 "VS1" V 6100 1150 40  0000 C CNN
+	1    6050 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L +BATT #PWR010
+U 1 1 50E196FF
+P 2900 850
+F 0 "#PWR010" H 2900 800 20  0001 C CNN
+F 1 "+BATT" H 2900 950 30  0000 C CNN
+	1    2900 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 50E196DA
+P 4600 2000
+F 0 "#PWR011" H 4600 2000 30  0001 C CNN
+F 1 "GND" H 4600 1930 30  0001 C CNN
+	1    4600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR012
+U 1 1 50E196C9
+P 4600 850
+F 0 "#PWR012" H 4600 810 30  0001 C CNN
+F 1 "+3.3V" H 4600 960 30  0000 C CNN
+	1    4600 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 50E1969F
+P 4000 1200
+F 0 "C2" H 4050 1300 50  0000 L CNN
+F 1 "1uF" H 4050 1100 50  0000 L CNN
+	1    4000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 50E1967E
+P 3200 1200
+F 0 "C1" H 3250 1300 50  0000 L CNN
+F 1 "100nF" H 3250 1100 50  0000 L CNN
+	1    3200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_7 P6
+U 1 1 50E1963B
+P 6650 3500
+F 0 "P6" V 6600 3500 60  0000 C CNN
+F 1 "V2" V 6700 3500 60  0000 C CNN
+	1    6650 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_9 P5
+U 1 1 50E1962B
+P 6650 1850
+F 0 "P5" V 6600 1850 60  0000 C CNN
+F 1 "V1" V 6700 1850 60  0000 C CNN
+	1    6650 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P4
+U 1 1 50E19403
+P 5350 4250
+F 0 "P4" V 5300 4250 50  0000 C CNN
+F 1 "PROGRAM" V 5400 4250 50  0000 C CNN
+	1    5350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_9 P2
+U 1 1 50E194D5
+P 1100 2950
+F 0 "P2" V 1050 2950 60  0000 C CNN
+F 1 "IO1" V 1150 2950 60  0000 C CNN
+	1    1100 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_7 P3
+U 1 1 50E194B7
+P 5300 3050
+F 0 "P3" V 5250 3050 60  0000 C CNN
+F 1 "IO2" V 5350 3050 60  0000 C CNN
+	1    5300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR013
+U 1 1 50E19471
+P 1600 2350
+F 0 "#PWR013" H 1600 2310 30  0001 C CNN
+F 1 "+3.3V" H 1600 2460 30  0000 C CNN
+	1    1600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 50E19460
+P 5000 4500
+F 0 "#PWR014" H 5000 4500 30  0001 C CNN
+F 1 "GND" H 5000 4430 30  0001 C CNN
+	1    5000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR015
+U 1 1 50E19449
+P 5000 4050
+F 0 "#PWR015" H 5000 4010 30  0001 C CNN
+F 1 "+3.3V" H 5000 4160 30  0000 C CNN
+	1    5000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 50E19441
+P 5250 2500
+F 0 "#PWR016" H 5250 2500 30  0001 C CNN
+F 1 "GND" H 5250 2430 30  0001 C CNN
+	1    5250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L TI-LAUNCHPAD U1
+U 1 1 50E193B8
+P 3200 2900
+F 0 "U1" H 3200 3400 60  0000 C CNN
+F 1 "TI-LAUNCHPAD" H 3150 3500 60  0000 C CNN
+F 2 "DIP20" H 3200 2900 60  0000 C CNN
+	1    3200 2900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
